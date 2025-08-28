@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <fieldset>
+    <meta charset="UFT-8">
+    <meata name="viewpot" content="width=device-width,initial-scale=1.0">
+        <title>form</title>
+</head>
+
+
+<head>
+    <title>Forms</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            background-color: lightgray;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+<body>
+    <form action="">
+            <legend> SELF INFORMATION</legend>
+            <label for="txt">Your Full Name</label>
+            <input type="text" id="txt" required placeholder="Input name">
+            <br><br>
+
+        
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email">
+            <br><br>
+
+            <label for="num">Your Age</label>
+            <input type="number" id="num">
+            <br><br>
+
+             <label for="radio"><b>Your Gender</b></label>
+            <br>
+            <input type="radio" id="radio" name="rad">
+            <label for="">Male</label>
+            <input type="radio" id="radio" name="rad">
+            <label for="">Female</label>
+              <br><br>
+
+
+              <label for="Chechbox"><b>Your Sports</b></label>
+            <br>
+            <input type="checkbox" id="Checkbox">
+            <label for="">Sports</label>
+            <input type="checkbox" id="Checkbox">
+            <label for="">Arts</label>
+            <input type="checkbox" id="Checkbox">
+            <label for="">Music</label>
+            <br><br>
+
+
+            <label for="dqbox">Courses</label>
+            <select id="dqbox">
+                <option value="1">BSCS</option>
+                <option value="2">IT</option>
+                <option value="3">ACT</option>
+            </select><br><br>
+
+            <input type="submit">
+    </fieldset>
+
+
+    <fieldset>
+
+            <legend>User Info</legend>
+            <table border="3">
+                <tr>
+
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Webdev</td>
+            <td>Monday</td>
+            <td>9:30 AM</td>
+        </tr>
+        <tr>
+            <td>Comprog</td>
+            <td>Wednesday</td>
+            <td>10:30 AM</td>
+        </tr>
+        <tr>
+            <td>Intcom</td>
+            <td>Friday</td>
+            <td>11:30 AM</td>
+        </tr>
+    </table>
+
+    <h2>Enrollment Steps</h2>
+    <ol>
+        <li>Fill out the enrollment form.</li>
+        <li>Submit payment.</li>
+        <li>Receive confirmation email.</li>
+    </ol>
+
+    <h2>Required Documents</h2>
+    <ul>
+        <li>Copy of ID.</li>
+        <li>Previous academic records.</li>
+        <li>Proof of residence.</li>
+    </ul>
+</fieldset>
+</body>
+</html>
